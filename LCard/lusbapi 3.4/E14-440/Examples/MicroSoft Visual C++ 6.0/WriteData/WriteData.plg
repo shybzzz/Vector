@@ -1,0 +1,140 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DynLoad - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP102.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\..\..\..\dll\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /c 
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\DynLoad\DynLoad.cpp"
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\DynLoad\LoadDll.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP102.tmp"" 
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"DynLoad.exe" /libpath:"..\..\..\..\dll\lib\MicroSoft\\" 
+".\DynLoad.obj"
+".\LoadDll.obj"
+]
+Creating command line "link.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP103.tmp""
+<h3>Output Window</h3>
+Compiling...
+DynLoad.cpp
+LoadDll.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DynLoad.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: MultiModules - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP105.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\..\..\dll\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /c 
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\MultiModules\MultiModules.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP105.tmp"" 
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP106.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"MultiModules.exe" /libpath:"..\..\..\..\dll\lib\MicroSoft\\" 
+".\MultiModules.obj"
+"..\..\..\..\DLL\Lib\MicroSoft\Lusbapi.lib"
+]
+Creating command line "link.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP106.tmp""
+<h3>Output Window</h3>
+Compiling...
+MultiModules.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MultiModules.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ReadData - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP108.tmp" with contents
+[
+/nologo /MT /W3 /Gi /GX /O2 /I "..\..\..\..\dll\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /c 
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\ReadData\ReadData.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP108.tmp"" 
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP109.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"ReadData.exe" /libpath:"..\..\..\..\dll\lib\MicroSoft\\" 
+".\ReadData.obj"
+"..\..\..\..\DLL\Lib\MicroSoft\Lusbapi.lib"
+]
+Creating command line "link.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP109.tmp""
+<h3>Output Window</h3>
+Compiling...
+ReadData.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ReadData.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ReadWrite - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /MT /W3 /Gi /GX /O2 /I "..\..\..\..\dll\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /c 
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\ReadWrite\ReadWrite.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10B.tmp"" 
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"ReadWrite.exe" /libpath:"..\..\..\..\dll\lib\MicroSoft\\" 
+".\ReadWrite.obj"
+"..\..\..\..\DLL\Lib\MicroSoft\Lusbapi.lib"
+]
+Creating command line "link.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10C.tmp""
+<h3>Output Window</h3>
+Compiling...
+ReadWrite.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ReadWrite.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: WriteData - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10E.tmp" with contents
+[
+/nologo /MT /W3 /Gi /GX /O2 /I "..\..\..\..\dll\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /c 
+"E:\PLATY\USB\Lusbapi\CD-ROM\CD-ROM34\USB\Lusbapi\E14-440\Examples\MicroSoft Visual C++ 6.0\WriteData\WriteData.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10E.tmp"" 
+Creating temporary file "C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /pdb:none /machine:I386 /out:"WriteData.exe" /libpath:"..\..\..\..\dll\lib\MicroSoft\\" 
+".\WriteData.obj"
+"..\..\..\..\DLL\Lib\MicroSoft\Lusbapi.lib"
+]
+Creating command line "link.exe @"C:\DOCUME~1\TIKHOM~1.L-C\LOCALS~1\Temp\RSP10F.tmp""
+<h3>Output Window</h3>
+Compiling...
+WriteData.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+WriteData.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

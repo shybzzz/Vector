@@ -1,0 +1,29 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = DacSample.exe ReadData.exe WriteData.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+ReadData.exe: ReadData\ReadData.dpr
+  $(DCC)
+
+WriteData.exe: WriteData\WriteData.dpr
+  $(DCC)
+
+DacSample.exe: DacSample\DacSample.dpr
+  $(DCC)
+
+DacSample.exe: DacSample\DacSample.dpr
+  $(DCC)
+
+

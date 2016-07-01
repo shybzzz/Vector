@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="E310Demo.exe"/>
+    <OBJFILES value="E310Demo.obj MainForm.obj GeneratorFrame.obj InitDevicesThread.obj About.obj"/>
+    <RESFILES value="E310Demo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm GeneratorFrame.dfm About.dfm"/>
+    <LIBFILES value="..\..\..\DLL\Lib\Borland\Lusbapi.lib"/>
+    <LIBRARIES value="LcardCom.lib Memos.lib vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib Memos.lib LcardCom.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi OpenWirePkgCB6.bpi SignalLabBasicPkgCB6.bpi 
+      SignalLabAdditionalPkgCB6.bpi UserLabBasicPkgCB6.bpi 
+      InstrumentLabPkgCB6.bpi LcardCom.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="E310Demo.cpp"/>
+    <INCLUDEPATH value="$(BCB)\components\pagecontrol\bmpagecontrol;$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks;&quot;$(BCB)\Components\Version Info\PJVersionInfo&quot;;$(BCB)\Components\Memos\ESColorMemo;&quot;$(BCB)\Components\URL Link&quot;;$(BCB)\LIB\lmd70;..\..\DLL\Include"/>
+    <LIBPATH value="$(BCB)\components\pagecontrol\bmpagecontrol;$(BCB)\Bin;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\DLL\Lib\Borland"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\components\pagecontrol\bmpagecontrol -I$(BCB)\Bin 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\OpenWire -I$(BCB)\LabPacks 
+      -I&quot;$(BCB)\Components\Version Info\PJVersionInfo&quot; 
+      -I$(BCB)\Components\Memos\ESColorMemo -I&quot;$(BCB)\Components\URL Link&quot; 
+      -I$(BCB)\LIB\lmd70 -I..\..\DLL\Include -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -Vx -Ve -RT- -fp -ff -X- -r- -a8 -6 -b- -d -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="E310Demo.res" FORMNAME="" UNITNAME="E310Demo.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="E310Demo.cpp" FORMNAME="" UNITNAME="E310Demo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainForm.cpp" FORMNAME="MainForm" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GeneratorFrame.cpp" FORMNAME="E310GeneratorFrame" UNITNAME="GeneratorFrame" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="InitDevicesThread.cpp" FORMNAME="" UNITNAME="InitDevicesThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\DLL\Lib\Borland\Lusbapi.lib" FORMNAME="" UNITNAME="Lusbapi.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="AboutProgramPanel" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=1
+Release=0
+Build=0
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=ООО &quot;Л Кард&quot;
+FileDescription=Демо-программа для модуля E-310
+FileVersion=1.1.0.0
+InternalName=
+LegalCopyright=ООО &quot;Л Кард&quot;
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks;$(BCB)\Components\Version Info\PJVersionInfo;$(BCB)\Components\Memos\ESColorMemo;$(BCB)\Components\URL Link;$(BCB)\LIB\lmd70;..\..\DLL\Include
+Item1=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\..\DLL\Include;$(BCB)\Components\Version Info\PJVersionInfo;$(BCB)\Components\Memos\ESColorMemo;$(BCB)\Components\URL Link
+Item2=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\..\DLL\Include;E:\Compiler\CBuilder6\Components\Version Info\PJVersionInfo
+Item3=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\..\DLL\Include
+Item4=$(BCB)\LIB\lmd70;..\..\E310TEST;E:\Compiler\CBuilder6\Bin;E:\PLATY\USB\Lusbapi\E-310\Examples\E310Demo;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\OpenWire;$(BCB)\LabPacks
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=$(BCB)\Bin;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\DLL\Lib\Borland
+Item1=$(BCB)\Bin;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\LabPacks;$(BCB)\LIB\lmd70;..\..\..\DLL\Lib\Borland
+Item2=$(BCB)\LIB\lmd70;..\..\E310TEST;E:\Compiler\CBuilder6\Bin;E:\PLATY\USB\Lusbapi\E-310\Examples\E310Demo;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\LabPacks;$(BCB)\LabPacks\IPPLib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;E:\PLATY\USB\Lusbapi\DLL\Source\Lusbapi\
+Item1=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;E:\PLATY\USB\Lusbapi\DLL\Source\Lusbapi\
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

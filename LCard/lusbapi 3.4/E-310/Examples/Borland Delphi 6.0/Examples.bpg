@@ -1,0 +1,29 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Generator.exe AdcData.exe DigitalIo.exe FM.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Generator.exe: Generator\Generator.dpr
+  $(DCC)
+
+AdcData.exe: AdcData\AdcData.dpr
+  $(DCC)
+
+DigitalIo.exe: DigitalIo\DigitalIo.dpr
+  $(DCC)
+
+FM.exe: FM\FM.dpr
+  $(DCC)
+
+

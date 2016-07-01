@@ -1,0 +1,6 @@
+USEUNIT("ReadData.cpp");
+USELIB("..\..\..\..\DLL\Lib\Borland\Lusbapi.lib");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+main
